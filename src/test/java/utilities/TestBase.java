@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public abstract class TestBaseBeforeMethodAfterMethod {
+public abstract class TestBase {
 
     protected WebDriver driver;
     protected Actions actions;
@@ -36,6 +36,6 @@ public abstract class TestBaseBeforeMethodAfterMethod {
     @AfterMethod
     public void tearDown() {
 
-        driver.close();
+        //driver.close();
     }
 }

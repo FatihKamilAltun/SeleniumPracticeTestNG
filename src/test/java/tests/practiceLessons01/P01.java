@@ -2,9 +2,9 @@ package tests.practiceLessons01;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import utilities.TestBaseBeforeMethodAfterMethod;
+import utilities.TestBase;
 
-public class P01 extends TestBaseBeforeMethodAfterMethod {
+public class P01 extends TestBase {
     // ...Exercise3...
     // go to url : https://www.techlistic.com/p/selenium-practice-form.html
     //fill the firstname

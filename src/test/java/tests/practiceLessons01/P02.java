@@ -3,9 +3,9 @@ package tests.practiceLessons01;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.TestBaseBeforeMethodAfterMethod;
+import utilities.TestBase;
 
-public class P02 extends TestBaseBeforeMethodAfterMethod {
+public class P02 extends TestBase {
     // 1. "http://webdriveruniversity.com/Popup-Alerts/index.html" adresine gidin
     // 2. JavaScript alertin "CLICK ME!" seçeneğine tıklayın
     // 3. Açılır metni alın
