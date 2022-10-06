@@ -17,7 +17,6 @@ public class Driver {
         if (driver == null) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         }
@@ -26,7 +25,7 @@ public class Driver {
 
     public static void closeDriver() {
         if (driver != null) {
-            driver.close();
+            //driver.close();
             driver = null;
         }
     }
