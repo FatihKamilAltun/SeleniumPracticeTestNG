@@ -14,6 +14,9 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class Driver {
+    private Driver() {
+    }
+
     static WebDriver driver;
 
 
