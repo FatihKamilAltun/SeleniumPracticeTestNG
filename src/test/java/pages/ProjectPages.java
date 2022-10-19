@@ -46,6 +46,41 @@ public class ProjectPages {
     @FindBy(xpath = "(//*[text()='Min Order Quantity?'])[1]")
     public WebElement storeManagerPageManageProductSubPageMinOrderQuantityTitle;
 
+    @FindBy(xpath = "//span[@class='icon-box-icon icon-orders']")
+    public WebElement myAccountPageOrdersIcon;
+
+    @FindBy(xpath = "//span[@class='icon-box-icon icon-downloads']")
+    public WebElement myAccountPageDownloadsIcon;
+
+    @FindBy(xpath = "//span[@class='icon-box-icon icon-addresses']")
+    public WebElement myAccountPageAddressesIcon;
+
+    @FindBy(xpath = "//span[@class='icon-box-icon icon-account']")
+    public WebElement myAccountPageAccountDetailsIcon;
+
+    @FindBy(xpath = "//label[@for='account_first_name']")
+    public WebElement myAccountPageAccountDetailsSubPageFirstNameText;
+
+    @FindBy(xpath = "//label[@for='account_last_name']")
+    public WebElement myAccountPageAccountDetailsSubPageLastNameText;
+
+    @FindBy(xpath = "//label[@for='account_display_name']")
+    public WebElement myAccountPageAccountDetailsSubPageDisplayNameText;
+
+    @FindBy(xpath = "//label[@for='account_email']")
+    public WebElement myAccountPageAccountDetailsSubPageEmailText;
+
+    @FindBy(xpath = "//label[@for='user_description']")
+    public WebElement myAccountPageAccountDetailsSubPageBiografyText;
+
+    @FindBy(xpath = "//body[@id='tinymce']")
+    public WebElement myAccountPageAccountDetailsSubPageBiografyBox;
+
+    @FindBy(xpath = "//button[@name='save_account_details']")
+    public WebElement myAccountPageAccountDetailsSubPageSaveChangesButton;
+
+    @FindBy(xpath = "//*[text()='Account details changed successfully.']")
+    public WebElement myAccountPageAccountDetailsSubPageSuccessChangesText;
 
 
 }
