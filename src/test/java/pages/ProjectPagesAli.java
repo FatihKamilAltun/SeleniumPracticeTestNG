@@ -125,7 +125,34 @@ public class ProjectPagesAli {
 
     // 3-004
 
+    @FindBy(xpath = "//input[@id='billing_first_name']")
+    public WebElement checkoutPageFirstNameBox;
 
+    @FindBy(xpath = "//input[@id='billing_last_name']")
+    public WebElement checkoutPageLastNameBox;
+
+    @FindBy(xpath = "//span[@id='select2-billing_country-container']")
+    public WebElement checkoutPageCountryDropDownMenu;
+
+    @FindBy(xpath = "//input[@id='billing_address_1']")
+    public WebElement checkoutPageAddressBox;
+
+    @FindBy(xpath = "//input[@id='billing_city']")
+    public WebElement checkoutPageTownCityBox;
+
+    @FindBy(xpath = "//input[@id='billing_state']")
+    public WebElement checkoutPageStateCountryBox;
+
+    @FindBy(xpath = "//input[@id='billing_phone']")
+    public WebElement checkoutPagePhoneBox;
+
+    @FindBy(xpath = "//input[@id='billing_email']")
+    public WebElement checkoutPageEmailBox;
+
+    // 3-005
+
+    @FindBy(xpath = "//button[@id='place_order']")
+    public WebElement checkoutPagePlaceOrderButton;
 
 
 
