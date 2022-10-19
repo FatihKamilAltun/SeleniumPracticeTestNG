@@ -88,5 +88,8 @@ public class ProjectPagesKamil {
     @FindBy(xpath = "//*[text()='Account details changed successfully.']")
     public WebElement myAccountPageAccountDetailsSubPageSuccessChangesText;
 
+    @FindBy(xpath = "(//*[text()='My Account'])[2]")
+    public WebElement mainPageMyAccountButton;
+
 
 }

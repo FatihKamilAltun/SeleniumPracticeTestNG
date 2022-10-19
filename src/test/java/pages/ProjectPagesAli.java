@@ -154,6 +154,32 @@ public class ProjectPagesAli {
     @FindBy(xpath = "//button[@id='place_order']")
     public WebElement checkoutPagePlaceOrderButton;
 
+    // 4-001
+
+    @FindBy(xpath = "//*[text()='View cart']")
+    public WebElement  shoppingCartViewCartButton;
+
+    @FindBy(xpath = "//th[@class='product-name']")
+    public WebElement shoppingCartProductNameTable;
+
+
+    //4-002
+
+    @FindBy(xpath = "(//button[@class='quantity-plus w-icon-plus'])[1]")
+    public WebElement shoppingCartFirstProductPlusButton;
+
+    @FindBy(xpath = "(//button[@class='quantity-minus w-icon-minus'])[1]")
+    public WebElement shoppingCartFirstProductMinusButton;
+
+
+    //4-003
+
+    @FindBy(xpath = "//button[@name='update_cart']")
+    public WebElement shoppingCartUpdateCartButton;
+
+    //4-004
+
+
 
 
 
