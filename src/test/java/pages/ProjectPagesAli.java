@@ -30,7 +30,7 @@ public class ProjectPagesAli {
     @FindBy(xpath = "//input[@id='wcfm_membership_register_button']")
     public WebElement registrationPageRegisterButton;
 
-    // 002
+    // 2-002
 
     @FindBy(xpath = "//*[text()='Sign In']")
     public WebElement signInButton;
@@ -62,7 +62,7 @@ public class ProjectPagesAli {
     @FindBy(xpath = "//span[@class='icon-box-icon icon-logout']")
     public WebElement myAccountPageAccountLogoutIcon;
 
-    // 003
+    // 2-003
 
     @FindBy(xpath = "//*[text()='Store Manager']")
     public WebElement myAccountPageDashBoardStoreManagerMenu;
@@ -82,7 +82,7 @@ public class ProjectPagesAli {
     @FindBy(xpath = "(//*[text()='Wishlist'])[2]")
     public WebElement ;*/
 
-    // 004
+    // 2-004
 
     @FindBy(xpath = "//*[text()='Support Tickets']")
     public WebElement myAccountPageDashBoardSupportsTicketsMenu;
@@ -92,6 +92,39 @@ public class ProjectPagesAli {
 
     @FindBy(xpath = "(//*[text()='Logout'])[1]")
     public WebElement myAccountPageDashBoardLogoutMenu;
+
+    // 3-001
+
+    @FindBy(xpath = "//*[text()='Browse products']")
+    public WebElement myAccountPageOrdersSubPageBrowseProductsButton;
+
+    // 3-002
+
+    @FindBy(xpath = "(//a[@class='btn-product-icon product_type_simple add_to_cart_button ajax_add_to_cart'])[1]")
+    public WebElement shopPageFirstProductForCart;
+
+    @FindBy(xpath = "(//a[@class='btn-product-icon product_type_simple add_to_cart_button ajax_add_to_cart'])[2]")
+    public WebElement shopPageSecondProductForCart;
+
+    @FindBy(xpath = "(//a[@class='btn-product-icon product_type_simple add_to_cart_button ajax_add_to_cart'])[3]")
+    public WebElement shopPageThirdProductForCart;
+
+    @FindBy(xpath = "(//a[@class='btn-product-icon product_type_simple add_to_cart_button ajax_add_to_cart'])[4]")
+    public WebElement shopPageFourthProductForCart;
+
+    @FindBy(xpath = "(//a[@class='btn-product-icon product_type_simple add_to_cart_button ajax_add_to_cart'])[5]")
+    public WebElement shopPageFifthProductForCart;
+
+    // 3-003
+
+    @FindBy(xpath = "(//i[@class='w-icon-cart'])[1]")
+    public WebElement shopPageCartButton;
+
+    @FindBy(xpath = "//a[@class='button checkout wc-forward']")
+    public WebElement shoppingCartCheckoutButton;
+
+    // 3-004
+
 
 
 
