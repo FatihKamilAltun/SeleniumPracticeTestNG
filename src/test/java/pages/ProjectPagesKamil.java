@@ -5,10 +5,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class ProjectPages {
-    public ProjectPages() {
+public class ProjectPagesKamil {
+    public ProjectPagesKamil() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
+
+
+    // 0011
 
     @FindBy(xpath = "//*[text()='Sign Out']")
     public WebElement signOutButton;
@@ -45,6 +48,9 @@ public class ProjectPages {
 
     @FindBy(xpath = "(//*[text()='Min Order Quantity?'])[1]")
     public WebElement storeManagerPageManageProductSubPageMinOrderQuantityTitle;
+
+
+    // 0012
 
     @FindBy(xpath = "//span[@class='icon-box-icon icon-orders']")
     public WebElement myAccountPageOrdersIcon;
